@@ -271,3 +271,12 @@ sudo apt install software-properties-common apt-transport-https dirmngr ca-certi
 
 apt not found
 pacman -S apt
+
+```
+changed the .bashrc PS1 to : PS1='\[\033[0;32m\]\u@\h:\w\$'
+```
+
+```
+Added alias to bashrc, alias c='clear
+alias update='sudo apt update && sudo apt upgrade'
+```
